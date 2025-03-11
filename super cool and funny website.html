@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>System Hack</title>
+    <style>
+        body {
+            background: black;
+            color: green;
+            font-family: monospace;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HACKING IN PROGRESS...</h1>
+    <script>
+        function hackEffect() {
+            document.body.innerHTML += "<p>Accessing System...</p>";
+            setTimeout(() => {
+                document.body.innerHTML += "<p>Downloading Data...</p>";
+            }, 2000);
+            setTimeout(() => {
+                document.body.innerHTML += "<p>Injecting Malware...</p>";
+            }, 4000);
+            setTimeout(() => {
+                document.body.innerHTML = "<h1 style='color:red;'>SYSTEM CRASHED!</h1>";
+            }, 6000);
+        }
+        setTimeout(hackEffect, 1000);
+    </script>
+</body>
+</html>
